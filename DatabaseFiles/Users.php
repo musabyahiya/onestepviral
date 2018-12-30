@@ -6,7 +6,7 @@
  if($_GET['action']=='CreateNewUsers')
  {
 
- 	$Email  = $_POST['Email'];
+	$Email  = $_POST['Email'];
  	$FirstName  = $_POST['FirstName'];
  	$LastName  = $_POST['LastName'];
  	$Password  = $_POST['Password'];
