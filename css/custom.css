@@ -1,0 +1,37 @@
+﻿.red
+{
+    color: red;
+}
+
+.edit
+{
+    background-position: left center;
+    background-image: url(/images/edit-icon.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.Approved
+{
+    background-position: left center;
+    background-image: url(/images/approved.gif);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 10px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.Pending
+{
+    background-position: left center;
+    background-image: url(/images/pending.gif);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 10px;
+    height: 22px;
+    cursor: pointer;
+}

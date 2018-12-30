@@ -1,0 +1,8 @@
+# Force SSL
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTPS} !=on [NC]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+#Alternate default index page
+DirectoryIndex Login.php
+</IfModule>
